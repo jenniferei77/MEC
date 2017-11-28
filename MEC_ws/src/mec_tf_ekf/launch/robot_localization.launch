@@ -17,7 +17,7 @@
   <node pkg="robot_localization" type="ekf_localization_node" name="ekf_local" clear_params="true">
     <!--#####################################################-->
     <!-- TODO: Remap topic of LOCAL EKF Estimator -->
-    <remap from="odometry/filtered" to="vehicle_state/velocity"/> 
+    <remap from="odometry/filtered" to="odometry/filtered_odom"/> 
     <!--#####################################################-->
   </node>
 
@@ -25,7 +25,7 @@
   <node pkg="robot_localization" type="ekf_localization_node" name="ekf_global" clear_params="true">
     <!--#####################################################-->
     <!-- TODO: Remap topic of GLOBAL EKF Estimator -->
-    <remap from="odometry/filtered" to="vehicle_state/velocity"/> 
+    <remap from="odometry/filtered" to="odom"/> 
     <!--#####################################################-->
   </node>
 
