@@ -1,0 +1,8 @@
+prefix=/home/jennifei/MEC_ws/devel
+
+Name: mec_tf_ekf
+Description: Description of mec_tf_ekf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jennifei/MEC_ws/devel/lib 
+Requires: 

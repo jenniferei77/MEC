@@ -1,0 +1,2 @@
+mec_tf_ekf:robot_localization:robot_pose_ekf:rviz_plugin_covariance
+-DCATKIN_DEVEL_PREFIX=/home/jennifei/MEC_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jennifei/MEC_ws/install -G Unix Makefiles
